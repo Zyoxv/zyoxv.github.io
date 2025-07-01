@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,
+400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <header>
+        <h1>Project UAS PPLM</h1>
+        <p>
+            Di projek kali ini saya akan menjelaskan apa yang saya lakukan
+            pada pembelajaran di PPLM ini.
+        </p>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#gambar">Gambar</a>
+                <a href="#audio">Audio</a>
+                <a href="#video">Video</a>
+                <a href="#form">Form</a>
+            </li>
+        </ul>
+    </nav>
+   <!-- Konten gambar -->
+    <section id="gambar">
+      <h2>Gambar Contoh Dari Desain Mockup</h2>
+      <p>
+        Gambar ini dari desain sebuah UI/UX yang akan dijadikan sebuah produk.
+      </p>
+
+      <div class="card-container">
+        <!-- Card Gambar -->
+        <div class="card">
+          <img src="https://i.pinimg.com/736x/02/df/4f/02df4f97722ed2157e226d3e1c232f02.jpg" alt="Contoh Gambar" />
+
+          <div class="card-content">
+            <h3>Contoh Gambar</h3>
+            <p>
+              Gambar ini hanya menjadi contoh.
+            </p>
+          </div>
+        </div>
+        <!-- Card Gambar -->
+        <div class="card">
+          <img src="https://i.pinimg.com/736x/77/44/f4/7744f49504247ddcdddb38c391c75a2e.jpg" alt="Contoh Gambar" />
+
+          <div class="card-content">
+            <h3>Contoh Gambar</h3>
+            <p>
+              Gambar ini hanya menjadi contoh.
+            </p>
+          </div>
+        </div>
+        <!-- Card Gambar -->
+        <div class="card">
+          <img src="https://i.pinimg.com/736x/19/0d/34/190d3469be37dd9bdcdb40d75181304a.jpg" alt="Contoh Gambar" />
+
+          <div class="card-content">
+            <h3>Contoh Gambar</h3>
+            <p>
+              Gambar ini hanya menjadi contoh.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="audio">
+        <h2> Audio pembelajaran tentang membuat produk UI/UX Dengan Music Jazz</h2>
+        <audio src="assets/audio/ui.mp3" controls type="UI/mp3"></audio>
+    </section>
+    <section id="video">
+        <h2> Contoh video pembuatan UI/UX</h2>
+        <video src="assets/video/tutorial.mp4" controls type="ui/mp4"></video>
+    </section>
+    <section id="form">
+        <h2>Register</h2>
+        <form onsubmit="return showMessage();">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" required/>
+            <button type="submit">Send</button>
+            <p id="output"></p>
+        </form>
+    </section>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
