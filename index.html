@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project UAS PPLM Interaktif</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/gambar/Abyssal.png" type="images/png"> 
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+              <img src="assets/gambar/Abyssal.png" alt="PPLM Logo" class="logo">
+                <span class="logo-text">Learn UI/UX</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#gambar-section">Gambar</a></li>
+                    <li><a href="#audio-section">Audio</a></li>
+                    <li><a href="#video-section">Video</a></li>
+                    <li><a href="#form-section">Form</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero-section" class="hero-section">
+            <div class="container">
+                <h1>Belajar tentang Ui/Ux</h1>
+                <p>Di project ini saya akan menjelaskan apa yang saya lakukan pada pembelajaran di Ui/Ux</p>
+                <button class="cta-button" onclick="location.href='#form-section'">Daftar Sekarang</button>
+            </div>
+        </section>
+
+        <section id="gambar-section" class="content-section">
+            <div class="container">
+                <h2>Gambar Contoh Dari Desain Mockup</h2>
+                <p>Gambar UI dari sebuah UI/UX yang akan dijadikan sebuah produk.</p>
+                <div class="image-gallery">
+                    <div class="gallery-item">
+                        <img src="https://i.pinimg.com/736x/26/92/1f/26921fdbe60b42de0d709ad877bdde63.jpg" alt="Contoh Gambar 1">
+                        <h3>Contoh Gambar</h3>
+                        <p>Gambar ini hanya menjadi contoh.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://i.pinimg.com/736x/19/0d/34/190d3469be37dd9bdcdb40d75181304a.jpg" alt="Contoh Gambar 2">
+                        <h3>Contoh Gambar</h3>
+                        <p>Gambar ini hanya menjadi contoh.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://i.pinimg.com/736x/02/df/4f/02df4f97722ed2157e226d3e1c232f02.jpg" alt="Contoh Gambar 3">
+                        <h3>Contoh Gambar</h3>
+                        <p>Gambar ini hanya menjadi contoh.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="audio-section" class="content-section">
+            <div class="container">
+                <h2>Audio pembelajaran tentang membuat produk UI/UX Dengan Music Jazz</h2>
+                <audio controls>
+                    <source src="assets/audio/ui.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p class="audio-description">Nikmati musik jazz sambil belajar mendesain UI/UX.</p>
+            </div>
+        </section>
+
+        <section id="video-section" class="content-section">
+            <div class="container">
+                <h2>Video Pembelajaran Desain UI/UX</h2>
+                <div class="video-wrapper">
+                    <iframe width="720" height="405" src="https://www.youtube.com/embed/HmKwiEmJIdM?si=l6M8bGloLpglwD5s" title="YouTube video player"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="video-description">Tonton video ini untuk tutorial lengkap mendesain UI/UX.</p>
+            </div>
+        </section>
+
+        <section id="form-section" class="content-section">
+            <div class="container">
+                <h2>Daftar untuk Informasi Lebih Lanjut</h2>
+                <form id="registration-form">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap:</label>
+                        <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Anda:</label>
+                        <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                    </div>
+                    <button type="submit" class="submit-button">Daftar Sekarang</button>
+                </form>
+                <p id="registration-message" class="hidden"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Project UAS PPLM. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</html>
